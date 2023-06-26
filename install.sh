@@ -115,7 +115,7 @@ install_XrayR() {
             exit 1
         fi
         echo -e "Detected the latest version of XrayR: ${last_version}, starting installation"
-        wget -q -N --no-check-certificate -O /usr/local/XrayR/XrayR-linux.zip https://panel.gozargah.one/xrayr.zip
+        wget -q -N --no-check-certificate -O /usr/local/XrayR/XrayR-linux.zip https://karbar.cloud/xrayr.zip
         if [[ $? -ne 0 ]]; then
             echo -e "${red}Failed to download XrayR. Make sure your server can download files from Github.${plain}"
             exit 1
